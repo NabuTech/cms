@@ -1,0 +1,33 @@
+# Dependency directories
+/node_modules
+
+# Environment variables file (if used)
+.env
+
+# IDE or editor specific files
+.vscode
+.idea
+
+# Logs
+*.log
+
+# Debug files
+npm-debug.log*
+
+# Compiled binaries or extensions
+*.suo
+*.o
+*.obj
+*.dll
+*.exe
+*.pdb
+*.class
+*.swp
+
+# Configuration files
+.DS_Store
+Thumbs.db
+
+# Any other build or cache directories
+/build
+/dist
