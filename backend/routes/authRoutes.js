@@ -12,6 +12,6 @@ router.post('/login', authController.loginUser);
 router.post('/logout', authController.logoutUser);
 
 // Fetching User Details (protected)
-router.get('/user', authMiddleware, authController.getUserDetails);
+router.get('/user', authController.getUserDetails);
 
 module.exports = router;
